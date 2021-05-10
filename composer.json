@@ -1,0 +1,41 @@
+{
+  "name": "labsbh/anonymizer-bundle",
+  "description": "Anonymize database fields",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": ">=8.0",
+    "doctrine/dbal": "^2.9.0|^3.0",
+    "doctrine/orm": "^2.8",
+    "fakerphp/faker": "^1.14",
+    "symfony/config": "^5.2",
+    "symfony/console": "^5.2",
+    "symfony/dependency-injection": "^5.2",
+    "symfony/doctrine-bridge": "5.2",
+    "symfony/framework-bundle": "^5.2",
+    "symfony/string": "^5.2",
+    "symfony/yaml": "^5.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Labsbh\\AnonymizerBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Labsbh\\AnonymizerBundle\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": "true"
+    }
+  }
+}
