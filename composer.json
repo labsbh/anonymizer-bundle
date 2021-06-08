@@ -15,7 +15,7 @@
     "symfony/config": "^5.2",
     "symfony/console": "^5.2",
     "symfony/dependency-injection": "^5.2",
-    "symfony/doctrine-bridge": "5.2",
+    "symfony/doctrine-bridge": "^5.2",
     "symfony/framework-bundle": "^5.2",
     "symfony/string": "^5.2",
     "symfony/yaml": "^5.2"
